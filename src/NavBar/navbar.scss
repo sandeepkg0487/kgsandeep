@@ -1,0 +1,49 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.active {
+  color: aqua !important;
+}
+.navbar a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 32px 14px 0;
+  text-decoration: none;
+  font-size: 17px;
+  &:hover {
+    color: aqua;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .open {
+    a {
+      display: block !important;
+    }
+  }
+  .navbar {
+    flex-direction: column;
+    a {
+      width: auto;
+    }
+    a:not(:first-child) {
+      display: none;
+    }
+  }
+  .hamburger {
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

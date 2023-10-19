@@ -1,0 +1,17 @@
+.Education-img{
+    max-width: 500px;
+}
+.education-img-container{
+    max-width: inherit;
+    img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .education-img-container{
+       
+        img{
+            width: 50%;
+        }
+    }
+}

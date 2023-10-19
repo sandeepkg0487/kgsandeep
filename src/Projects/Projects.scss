@@ -1,0 +1,52 @@
+// for fishshop
+
+// p{
+//     padding-top: 100px;
+// }
+.secondary-container{
+    display: flex;
+}
+.border{
+    margin: 25px;
+
+}
+.bgcolor-32 {
+    background-color: rgb(118, 206, 206);
+}
+.bgcolor-31 {
+    background-color: rgb(204, 94, 154);
+}
+.bgcolor-30{
+    background-color: rgb(226, 164, 93);
+}
+.square-image{
+   max-width: 100%;
+    align-items: center;
+}
+.image-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: inherit;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.mg-25{
+    margin: 25px;
+}
+.project-content{
+    padding: 25px;
+    min-height: inherit;
+}
+@media screen and (max-width: 767px) {
+    .secondary-container{
+    flex-direction: column;
+    }
+    .flx-col-rev{
+        flex-direction: column-reverse;
+        }
+}

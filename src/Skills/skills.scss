@@ -1,0 +1,60 @@
+.image-skill{
+    width: 50%;
+    min-height: 500px;
+}
+ .h-500{
+    height: 500px;
+ }
+.skillclass{
+    max-width: 500px;
+    max-height: 500px;
+    position: fixed;
+
+    img{
+        width: 100%;
+    }
+}
+.skill-Tile-Wraper{
+    // width: 100%;
+ 
+    min-height: 150px;
+}
+.pd-25{
+    padding: 25px;
+
+}
+.skill-Tile-Wraper{
+    display: flex;
+    max-height: 150px;
+    max-width: 100%;
+   
+   
+}
+.skill-image{
+    max-width: 100px;
+    max-height: 100px;
+    height: 100px;
+  width: 100px;
+}
+.skill-content{
+    padding-left: 25px;
+    color: white;
+}
+.right-container{
+    justify-content: unset;
+    align-items: unset;
+}
+.mb-25{
+    margin-bottom: 25px;   
+}
+.right-container{
+display: block;
+}
+@media screen and (max-width: 767px) {
+    .skillclass{
+        position:relative;
+    }
+    .h-500{
+        height: 300px;
+    }
+}
