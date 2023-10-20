@@ -1,6 +1,7 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
+
+
 
 const Left = () => {
   const downloadCV = (event) => {
@@ -26,18 +27,24 @@ const Left = () => {
         I'm <span>Sandeep K G</span>
       </h1>
       <h3>React js Developer</h3>
-      <button onClick={downloadCV}>Download cv <FontAwesomeIcon icon={faDownload} /></button>
+      
+      <button onClick={downloadCV} className="button"><span>download CV </span></button>
       <br />
       <div className="icon-pack">
-        <div className="icon-wrap">
-          <img className="iconclass" src="./image/mail.png" alt=" mail"></img>
+      <Link to="https://www.linkedin.com/in/kgsandeep/" target="_blank" rel="noopener noreferrer" >
+        <div className="icon-image">
+        
+           <img  className="icon" src="./image/Linkedin.png" alt="linked in" />
+    
+         
         </div>
-        <div className="icon-wrap">
-          <img className="iconclass" src="./image/Linkedin.png" alt=" linkedin"></img>
+        </Link>
+        <div className="icon-image">
+          <img className="icon" src="./image/email.png" alt="linked in" />
         </div>
-        <div className="icon-wrap">
-          <img className="iconclass" src="./image/phone.png" alt=" phone"></img>
-        </div>
+        
+        
+       
       </div>
     </div>
   );

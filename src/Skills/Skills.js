@@ -23,44 +23,38 @@ const Skills = () => {
           <div className="skill-image "> </div>
           <div className="skill-content">
             <h1>Html 5</h1>
-            <h3>Redux RestApi context </h3>
+            <h3> </h3>
           </div>
         </div>
         <div className="skill-Tile-Wraper bgcolor-31 pd-25 mb-25">
           <div className="skill-image "> </div>
           <div className="skill-content">
-            <h1>Html 5</h1>
-            <h3>Redux RestApi context </h3>
+            <h1>Javascript</h1>
+            <h3> </h3>
           </div>
         </div>
         <div className="skill-Tile-Wraper bgcolor-31 pd-25 mb-25">
           <div className="skill-image "> </div>
           <div className="skill-content">
-            <h1>Html 5</h1>
-            <h3>Redux RestApi context </h3>
+            <h1>css</h1>
+            <h3>Flex | Position | Grid </h3>
           </div>
         </div>
         <div className="skill-Tile-Wraper bgcolor-31 pd-25 mb-25">
           <div className="skill-image "> </div>
           <div className="skill-content">
-            <h1>Html 5</h1>
-            <h3>Redux RestApi context </h3>
+            <h1>git</h1>
+            <h3> A Version controll system </h3>
           </div>
         </div>
         <div className="skill-Tile-Wraper bgcolor-31 pd-25 mb-25">
           <div className="skill-image "> </div>
           <div className="skill-content">
-            <h1>Html 5</h1>
-            <h3>Redux RestApi context </h3>
+            <h1> SCSS</h1>
+            <h3> </h3>
           </div>
         </div>
-        <div className="skill-Tile-Wraper bgcolor-31 pd-25 mb-25">
-          <div className="skill-image "> </div>
-          <div className="skill-content">
-            <h1>Html 5</h1>
-            <h3>Redux RestApi context </h3>
-          </div>
-        </div>
+       
       </div>
     </div>
   );

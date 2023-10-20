@@ -1,12 +1,14 @@
 .navbar {
-  overflow: hidden;
-  background-color: #333;
+ 
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: flex-end;
   width: 100%;
   position: fixed;
-  z-index: 100;
+  z-index: 1;
+  min-height: 50px;
+
+  background-color: #333;
 }
 .active {
   color: aqua !important;
@@ -17,6 +19,9 @@
   padding: 14px 32px 14px 0;
   text-decoration: none;
   font-size: 17px;
+
+  background-color: #333;
+
   &:hover {
     color: aqua;
   }
@@ -24,26 +29,36 @@
 
 .hamburger {
   display: none;
+  height: 50px;
+  width: 50px;
+  height: 50px;
+   z-index: 1;
+   top: 0;
+   right: 0;
+   position: fixed;
 }
 @media screen and (max-width: 767px) {
-  .open {
-    a {
-      display: block !important;
-    }
+.navbar{
+  flex-direction: column;
+  background-color:white;
+  transform: translateY(-100%);
+  transition: 0.3s;
+  a{
+      width: 100%;
+      justify-content: center;
   }
-  .navbar {
-    flex-direction: column;
-    a {
-      width: auto;
-    }
-    a:not(:first-child) {
-      display: none;
-    }
+
+}
+.open{
+  transform: translate(0%, 0%) !important;
+  a{
+  display: flex !important;
+
+ 
+ 
   }
-  .hamburger {
-    display: inline;
-    position: absolute;
-    top: 0;
-    right: 0;
+}
+.hamburger {
+  display: block;
   }
 }

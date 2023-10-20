@@ -7,14 +7,11 @@ const Fishshop = () => {
         <div className="project-content  bgcolor-32">
           <h1>Fishshop.com</h1>
         
-          <h2>this is a fish ordering website </h2>
+          <h2></h2>
        
-          <h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            dolor velit quisquam fugiat asperiores possimus, eum perferendis,
-            quos inventore, autem molestiae delectus. Et inventore reprehenderit
-            nihil, repudiandae magni libero aliquid.
-          </h4>
+          <p>
+          FishShop.com is a dynamic web application designed to revolutionize the way customers and sellers interact in the world of live ornamental fish. This platform serves as a virtual marketplace, connecting enthusiasts and sellers, offering a convenient, secure, and expansive space for the purchase and sale of live ornamental fish. FishShop.com provides a comprehensive solution for all stakeholders, catering to the needs of customers and sellers alike.
+          </p>
         </div>
       </div>
       <div className="right-container">

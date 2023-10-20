@@ -5,7 +5,7 @@ const SmartSpeed = () => {
     <div className="secondary-container flx-col-rev">
       <div className="left-container ">
         <div className='image-wraper mg-25'>
-          <img className="square-image" src="./Image/website.png" alt="fishshop" />
+          <img className="square-image" src="./Image/speedlimiter.png" alt="fishshop" />
         </div>
       </div>
       <div className="right-container mb-25">
