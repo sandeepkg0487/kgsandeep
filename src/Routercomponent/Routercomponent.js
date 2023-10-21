@@ -26,7 +26,7 @@ const Routercomponent = () => {
     <Provider store={store}>
       <CustmeContext.Provider value={[shareddata, setshareddata]}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Skills" element={<Skills/>} />
