@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import linkedin from "../Image/Linkedin.png"
 
 
 const Left = () => {
@@ -34,13 +34,13 @@ const Left = () => {
       <Link to="https://www.linkedin.com/in/kgsandeep/" target="_blank" rel="noopener noreferrer" >
         <div className="icon-image">
         
-           <img  className="icon" src="./image/Linkedin.png" alt="linked in" />
+           <img  className="icon" src={linkedin}  alt="linked in" />
     
          
         </div>
         </Link>
         <div className="icon-image">
-          <img className="icon" src="./image/email.png" alt="linked in" />
+          <img className="icon" src={linkedin} alt="linked in" />
         </div>
         
         
